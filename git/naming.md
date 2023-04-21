@@ -63,9 +63,14 @@ Rules:
 - delete your branch from the upstream repository after it's merged
 
 Examples:
-- `git checkout -b feature`
+- `git checkout -b develop`
 - team-wide branch: `git checkout -b feature/main`
 - personal branch: `git checkout -b feature/clement`
+- work item branch:
+  - feature: `git checkout -b feature/{work-item-id}`
+  - bugfix: `git checkout -b bugfix/{work-item-id}`
+- release branch: `git checkout -b release/{version}`
+- hotfix branch: `git checkout -b hotfix/{work-item-id}`
 
 ## 4. Commit
 
