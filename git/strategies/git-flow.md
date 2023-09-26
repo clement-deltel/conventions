@@ -21,17 +21,18 @@
 ## 2. Branches
 
 - **main**
+  - long-lived
   - developer MUST NOT use force push on this branch
   - developer MUST open a pull request to add changes to this branch
-  - infinite lifetime
 - **develop**
+  - long-lived
   - developer MUST NOT use force push on this branch
   - developer MUST open a pull request to add changes to this branch
-  - infinite lifetime
   - branches off the **main** branch
 - **feature**
   - short-lived
   - branches off the **develop** branch
+  - one developer at a time on a branch
   - develop new features
 - **release**
   - short-lived
@@ -55,7 +56,7 @@
 **Feature and bugfix**:
 1. Create a new **feature** or **bugfix** branch from **develop** following naming conventions available [here](../naming.md).
 2. Start working on the feature or bugfix.
-3. Rebase the branch onto **develop** before creating a pull request to merge it into **develop**.
+3. Rebase the branch onto **develop** before creating a pull request to merge it into **develop** (avoid unnecessary merge commits).
 4. Merge the branch into **develop** when ready and after review.
 5. Delete the **feature** or **bugfix** branch.
 
@@ -78,7 +79,11 @@
 
 ### 3.4 Good practices
 
+- Commit often and push frequently.
+- Protect the long-lived branches.
 - **Delete the feature / bugfix / hotfix branch once done**: this indicates that the work on the branch is complete and prevents you or others from accidentally using old branches.
+- Whenever possible assign the merge request to the person who knows most about the codebase you are changing.
+- Reopening an issue means creating a new feature branch with the same name and a new merge request.
 
 ## 4. Pros
 
