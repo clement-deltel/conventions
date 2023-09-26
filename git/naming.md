@@ -10,12 +10,9 @@
 - [6. Miscellaneous](#6-miscellaneous)
 - [7. Resources](#7-resources)
 
-
 ## 1. Introduction
 
 List of criteria to match and rules to follow when naming a git object.
-
----
 
 ## 2. Repository
 
@@ -52,8 +49,6 @@ Examples:
 - `[language/framework]-[product/project]`
   - python-automation-scripts
 
----
-
 ## 3. Branch
 
 Criteria:
@@ -71,8 +66,6 @@ Examples:
 - `git checkout -b feature`
 - team-wide branch: `git checkout -b feature/main`
 - personal branch: `git checkout -b feature/clement`
-
----
 
 ## 4. Commit
 
@@ -92,8 +85,6 @@ Rules:
 Example:
 - [git commit template](https://github.com/clement-deltel/dotfiles/blob/main/.gitmessage.txt)
 
----
-
 ## 5. Pull requests / Merge requests
 
 Criteria:
@@ -110,8 +101,6 @@ Good practices:
 - rebase your branch onto the branch it's going to be merged to
 - squash commits while merging
 
----
-
 ## 6. Miscellaneous
 
 Rules:
@@ -121,7 +110,6 @@ Rules:
   - [git-gc](https://git-scm.com/docs/git-gc)
   - [git-prune](https://git-scm.com/docs/git-prune)
   - [git-fsck](https://git-scm.com/docs/git-fsck)
-
 
 ## 7. Resources
 
