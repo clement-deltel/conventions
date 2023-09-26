@@ -8,7 +8,7 @@
 - [4. Commit](#4-commit)
 - [5. Pull requests / Merge requests](#5-pull-requests--merge-requests)
 - [6. Miscellaneous](#6-miscellaneous)
-- [7. Resources](#7-resources)
+- [7. References](#7-references)
 
 ## 1. Introduction
 
@@ -111,7 +111,7 @@ Rules:
   - [git-prune](https://git-scm.com/docs/git-prune)
   - [git-fsck](https://git-scm.com/docs/git-fsck)
 
-## 7. Resources
+## 7. References
 
 - https://moduscreate.com/blog/github-semantic-naming/
 - https://github.com/bcgov/BC-Policy-Framework-For-GitHub/blob/master/BC-Gov-Org-HowTo/Naming-Repos.md
