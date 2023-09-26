@@ -38,7 +38,7 @@
 ### 3.2 Developer role
 
 1. Create a new **feature** or **bugfix** branch from **main** following naming conventions available [here](../naming.md).
-2. . Start working on the feature or bugfix.
+2. Start working on the feature or bugfix.
 3. Rebase the branch onto **main** before creating a pull request to merge it into **main** (avoid unnecessary merge commits).
 4. Bump version and update release notes when ready (if applicable).
 5. Merge this branch into **main** after peer review.
