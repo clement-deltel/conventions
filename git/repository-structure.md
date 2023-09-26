@@ -1,4 +1,4 @@
-# Naming <!-- omit in toc -->
+# Repository Structure <!-- omit in toc -->
 
 ## Table of Contents <!-- omit in toc -->
 
@@ -6,7 +6,7 @@
 - [2. Directories](#2-directories)
 - [3. Root files](#3-root-files)
   - [3.1 Choose the appropriate license](#31-choose-the-appropriate-license)
-- [4. Resources](#4-resources)
+- [4. References](#4-references)
 
 ## 1. Introduction
 
@@ -49,7 +49,7 @@ Useful links:
 - https://choosealicense.com/
 - https://ufal.github.io/public-license-selector/
 
-## 4. Resources
+## 4. References
 
 - https://climbtheladder.com/10-git-repository-naming-best-practices/
 - https://www.codementor.io/@louiekwan/azure-devops-guardrails-naming-conventions-and-standards-1gn1v7bebh
