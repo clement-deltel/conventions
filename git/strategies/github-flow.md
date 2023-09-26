@@ -19,13 +19,14 @@
 ## 2. Branches
 
 - **main**
+  - long-lived
   - developer MUST NOT use force push on this branch
   - developer MUST open a pull request to add changes to this branch
   - developer MUST merge only stable features to this branch
-  - infinite lifetime
 - **feature**
   - short-lived
   - branches off the **main** branch
+  - one developer at a time on a branch
   - develop new features
 
 ## 3. Flow
@@ -38,7 +39,7 @@
 
 1. Create a new **feature** or **bugfix** branch from **main** following naming conventions available [here](../naming.md).
 2. . Start working on the feature or bugfix.
-3. Rebase the branch onto **main** before creating a pull request to merge it into **main**.
+3. Rebase the branch onto **main** before creating a pull request to merge it into **main** (avoid unnecessary merge commits).
 4. Bump version and update release notes when ready (if applicable).
 5. Merge this branch into **main** after peer review.
 6. Add a release tag.
@@ -46,7 +47,11 @@
 
 ### 3.3 Good practices
 
+- Commit often and push frequently.
+- Protect the long-lived branches.
 - **Delete the feature / bugfix branch once done**: this indicates that the work on the branch is complete and prevents you or others from accidentally using old branches.
+- Whenever possible assign the merge request to the person who knows most about the codebase you are changing.
+- Reopening an issue means creating a new feature branch with the same name and a new merge request.
 
 ## 4. Pros
 
@@ -69,6 +74,7 @@
 General:
 - https://www.flagship.io/git-branching-strategies/
 - https://docs.github.com/en/get-started/quickstart/github-flow
+- https://scottchacon.com/2011/08/31/github-flow.html
 
 GitHub default branch master to main:
 - https://github.com/github/renaming
