@@ -10,7 +10,7 @@
 
 ## 1. Introduction
 
-List of rules to follow when creating a repository in order ot respect a standard structure.
+List of rules to follow when creating a repository in order to respect a standard structure.
 
 ## 2. Directories
 
