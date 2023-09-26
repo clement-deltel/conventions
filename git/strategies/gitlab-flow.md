@@ -8,9 +8,9 @@
   - [2.2 Environment branches](#22-environment-branches)
   - [2.3 Release branches](#23-release-branches)
   - [2.4 Good practices](#24-good-practices)
-- [4. Pros](#4-pros)
-- [5. Cons](#5-cons)
-- [6. References](#6-references)
+- [3. Pros](#3-pros)
+- [4. Cons](#4-cons)
+- [5. References](#5-references)
 
 ## 1. Branches
 
@@ -125,7 +125,7 @@ Work with release branches only if you need to release software to the outside w
   - Small commits are joined together, making it simpler to revert all parts of a change.
   - Base branch remains clean, and contains meaningful commit messages.
 
-## 4. Pros
+## 3. Pros
 
 - CI/CD friendly
 - simpler alternative to GitFlow
@@ -136,11 +136,11 @@ Work with release branches only if you need to release software to the outside w
 - suited for situations where the timing of the release is uncertain
 - suited for web development and continuous deployment
 
-## 5. Cons
+## 4. Cons
 
 - more complex than GitHub Flow
 
-## 6. References
+## 5. References
 
 General:
 - https://www.flagship.io/git-branching-strategies/
