@@ -8,6 +8,7 @@
   - [3.1 Initialize a new project](#31-initialize-a-new-project)
   - [3.2 Developer role](#32-developer-role)
   - [3.3 Release manager role](#33-release-manager-role)
+  - [3.4 Good practices](#34-good-practices)
 - [4. Pros](#4-pros)
 - [5. Cons](#5-cons)
 - [6. References](#6-references)
@@ -55,13 +56,16 @@
 1. Create a new **feature** or **bugfix** branch from **develop** following naming conventions available [here](../naming.md).
 2. Start working on the feature or bugfix.
 3. Rebase the branch onto **develop** before creating a pull request to merge it into **develop**.
+4. Merge the branch into **develop** when ready and after review.
+5. Delete the **feature** or **bugfix** branch.
 
 **Hotfix**:
 1. Create a new hotfix branch from **main** following naming conventions available [here](../naming.md).
 2. Start working on the hotfix.
 3. Update PATCH version number in concerned files.
-4. Merge to **main** using a pull request.
-5. Merge to **develop** using a pull request.
+4. Merge to **main** using a pull request when ready and after peer review.
+5. Merge to **develop** using a pull request when ready and after peer review.
+6. Delete the **hotfix** branch.
 
 ### 3.3 Release manager role
 
@@ -69,8 +73,12 @@
 1. Create a new **release** branch from **develop** following naming conventions available [here](../naming.md).
 2. Fix bugs directly on this branch if any.
 3. Bump version and update release notes when ready.
-4. Merge this branch into **develop** and **main**.
+4. Merge this branch into **develop** and **main** after peer review.
 5. Add a release tag.
+
+### 3.4 Good practices
+
+- **Delete the feature / bugfix / hotfix branch once done**: this indicates that the work on the branch is complete and prevents you or others from accidentally using old branches.
 
 ## 4. Pros
 
