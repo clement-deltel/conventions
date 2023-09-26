@@ -60,7 +60,7 @@ Rules:
 - use lower case
 - use identifiers from corresponding tickets in an external service if applies
 - use personal feature branches and a team-wide feature branch when several people are working on the same feature
-- delete your branch from the upstream repository after it's merged
+- delete your branch from the remote/upstream repository after it's merged
 
 Examples:
 - `git checkout -b develop`
