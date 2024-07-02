@@ -2,6 +2,12 @@
 
 Collection of conventions to follow as a good developer.
 
+## Azure DevOps
+
+### General
+
+- [Naming Conventions](azure-devops/naming.md)
+
 ## Git
 
 ### General
